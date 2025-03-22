@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 // Path to your MP3 file
-const mp3Path = path.join(__dirname, "audio", "reminder.mp3");
+const mp3Path = path.join(__dirname, "audio", "voice-1.mp3");
 
 // Route to play the MP3
 app.get("/play", (req, res) => {
